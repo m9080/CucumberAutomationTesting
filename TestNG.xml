@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="JavaTestNGsuite" >
+  <test name="TestNGsuite">
+    <classes>
+      <class name="com.qa.tests.LoginTest"/>
+      <class name="com.qa.tests.DashboardTest"/>
+    </classes>
+  </test>
+
+  <test name="SearchTests">
+    <classes>
+      <class name="com.qa.tests.SearchTest"/>
+    </classes>
+  </test>
+</suite>
